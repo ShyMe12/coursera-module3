@@ -31,7 +31,7 @@ body{
 }
 #name{
 	font-size: 30px;
-	margin-right: 16.8rem;
+	margin-right: 13.3rem;
 
 }
 .navbar-toggler{
@@ -47,7 +47,7 @@ body{
 
 }
 
-@media screen and (max-width: 429px){
+@media screen and (max-width: 430px){
 #c1 { 
 	margin-top: 40px;
  	margin-left: 90px;
