@@ -29,7 +29,9 @@ body{
 	padding-bottom: 10px;
 	color: black;
 }
-
+#name{
+	font-size: 30px;
+}
 .navbar-toggler{
 	display: none;
 }
@@ -40,13 +42,19 @@ body{
  	margin-left: 80px;
  	margin-right: 80px;
 	}
-
 }
 
-@media (max-width: 500px) and (min-width: 460px){
+
+
+@media (max-width: 500px){
 #name{
 	font-size: 30px;
-	margin-right: 16.6rem;
+	justify-content: flex-start;
+	padding-right: 17rem;
+	margin: 0;
+}
+.navbar-toggler{
+	margin-right: auto;
 }
 #c1 { 
 	margin-top: 40px;
@@ -84,4 +92,13 @@ body{
 
 #title1.active {
    	 border-top: 2px solid white;
+}
+
+@media (min-width: 430px){
+#name{
+	font-size: 30px;
+	justify-content: flex-start;
+	padding-right: 16.8rem;
+	margin: 0;
+	}
 }
