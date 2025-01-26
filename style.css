@@ -29,11 +29,7 @@ body{
 	padding-bottom: 10px;
 	color: black;
 }
-#name{
-	font-size: 30px;
-	margin-right: 13.3rem;
 
-}
 .navbar-toggler{
 	display: none;
 }
@@ -47,7 +43,11 @@ body{
 
 }
 
-@media screen and (max-width: 430px){
+@media (max-width: 500px) and (min-width: 460px){
+#name{
+	font-size: 30px;
+	margin-right: 16.6rem;
+}
 #c1 { 
 	margin-top: 40px;
  	margin-left: 90px;
